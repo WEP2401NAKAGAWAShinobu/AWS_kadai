@@ -2,7 +2,7 @@
 lock "~> 3.18.1"
 
 set :application, "blog_app"
-set :repo_url, "https://git@github.com:WEP2401NAKAGAWAShinobu/AWS_kadai.git"
+set :repo_url, "https://github.com/WEP2401NAKAGAWAShinobu/AWS_kadai.git"
 set :linked_files, %w{config/secrets.yml}   # 4
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}   # 5
 set :keep_releases, 5   # 6
